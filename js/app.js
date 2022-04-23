@@ -1,9 +1,9 @@
 const numbers = document.querySelector("#numbers");
 const result = document.querySelector("#result");
 
-let a = prompt("Type the first number");
-let b = prompt("Type the second number");
-let c = prompt("Type the third number");
+let a = Number(prompt("Type the first number"));
+let b = Number(prompt("Type the second number"));
+let c = Number(prompt("Type the third number"));
 
 numbers.textContent = `The numbers are ${a}, ${b}, ${c}`;
 
